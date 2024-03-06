@@ -16,6 +16,8 @@ public class MyJavaClass {
 		driver.get("https://www.facebook.com");
 		driver.manage().window().maximize();
 		String myName = "Rana";
+		
+	String myAge="28";
 	}
 	
 	@Test
