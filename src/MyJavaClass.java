@@ -15,6 +15,7 @@ public class MyJavaClass {
 	public void myBeforeTest() {
 		driver.get("https://www.facebook.com");
 		driver.manage().window().maximize();
+		String myName = "Rana";
 	}
 	
 	@Test
